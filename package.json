@@ -4,6 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "type": "module",
+  "engines": {
+    "node": "^19.0.0"
+  },
   "scripts": {
     "start": "node src/index.js",
     "devStart": "nodemon src/index.js"

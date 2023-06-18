@@ -8,7 +8,7 @@
     "node": "^19.0.0"
   },
   "scripts": {
-    "start": "node -r dotenv/config src/index.js",
+    "start": "node src/index.js",
     "devStart": "nodemon -r dotenv/config src/index.js"
   },
   "dependencies": {
